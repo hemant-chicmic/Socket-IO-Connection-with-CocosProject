@@ -7,10 +7,10 @@ const server = http.createServer(app);
 const io = new socketIo(server);
 
 io.on('connection', (socket) => {
-    console.log('A client connected');
+    console.log('A s client connected');
 
     socket.on('disconnect', () => {
-        console.log('A client disconnected');
+        console.log('A s client disconnected');
     });
 
     // Handle custom events
