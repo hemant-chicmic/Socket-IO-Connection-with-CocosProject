@@ -1,0 +1,12 @@
+{
+  "name": "socketIOConnection",
+  "uuid": "95ca3897-0464-4dcf-9cf9-8bc61400b05c",
+  "creator": {
+    "version": "3.7.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io-client": "^4.7.5",
+    "ws": "^8.17.0"
+  }
+}
